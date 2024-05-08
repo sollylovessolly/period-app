@@ -1,0 +1,81 @@
+/* PeriodTracker.module.css */
+
+.period-tracker {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+   }
+   
+   .period-tracker:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+   }
+   
+   .period-tracker h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+   }
+   
+   .period-tracker form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+   
+   .period-tracker label {
+    font-weight: bold;
+   }
+   
+   .period-tracker input[type="date"],
+   .period-tracker input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+   }
+   
+   .period-tracker button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   }
+   
+   .period-tracker button:hover {
+    background-color: #0056b3;
+   }
+   
+
+   /* Add these styles to your PeriodTracker.module.css */
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.3s ease-in-out;
+   }
+   
+   @keyframes fadeIn {
+    from {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    to {
+       opacity: 1;
+       transform: translateY(0);
+    }
+   }
+   
+   .modal-content h2 {
+    margin-bottom: 10px;
+   }
+   
